@@ -1,0 +1,25 @@
+Data: 05/02/2024
+Para: Investidores Série A
+De: João Silva, CEO TechFlow
+
+Prezados Investidores,
+
+Compartilho update sobre Q1 2024:
+
+Produto Alpha:
+- Lançamento bem-sucedido com 10.000 usuários cadastrados
+- Pipeline comercial de R$ 2 milhões para Q1
+- Sarah Chen e equipe técnica expandida para 15 desenvolvedores
+
+Finanças:
+- Runway atual: 18 meses
+- Burn rate mensal: R$ 150.000
+- Receita recorrente (MRR): R$ 80.000
+
+Próximos passos:
+- Lançamento versão Enterprise em março
+- Contratação de VP de Vendas
+- Expansão para mercado internacional em Q3
+
+Atenciosamente,
+João Silva

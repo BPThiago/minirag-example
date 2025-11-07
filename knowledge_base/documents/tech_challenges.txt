@@ -1,0 +1,23 @@
+Data: 12/02/2024
+Autor: Sarah Chen, CTO
+
+Desafios Técnicos Superados no Lançamento do Alpha
+
+Durante o desenvolvimento e lançamento do Alpha, a equipe enfrentou 
+diversos desafios técnicos:
+
+1. Escalabilidade de Banco de Dados
+A arquitetura inicial não suportava o volume esperado. Migramos de 
+PostgreSQL para uma solução híbrida com Redis para cache e 
+PostgreSQL para persistência.
+
+2. Performance do Dashboard
+As visualizações em tempo real causavam gargalos. Implementamos 
+WebSockets e agregação de dados no backend, reduzindo latência de 
+2s para 200ms.
+
+3. Monitoramento e Alertas
+Configuramos Prometheus e Grafana para monitoramento 24/7. João Silva 
+tinha acesso aos dashboards principais para acompanhar métricas críticas.
+
+A equipe cresceu de 8 para 15 desenvolvedores para suportar a operação.
