@@ -3,7 +3,6 @@ import os
 os.environ["OPENAI_API_BASE"] = "<your_openai_api_base_url>"
 os.environ["OPENAI_API_KEY"] = "<your_openai_api_key>"
 
-import glob
 from minirag import MiniRAG, QueryParam
 from minirag.llm import (
     # hf_model_complete,
@@ -99,7 +98,7 @@ queries = [
     }
 ]
 
-os.makedirs("./logs_short", exist_ok=True)
+os.makedirs("./logs", exist_ok=True)
 
 for idx, q in enumerate(queries, 1):
     print(f"Query [{idx}/{len(queries)}]: {q['query']}")
